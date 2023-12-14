@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  Professor FAM
+</h1>
+<h2 class="subtitle center">
+  Your Foreign Affairs Manual Artificial Research Assistant
+</h2>
+<div class="center">
+<table class="admintable">
+{% for user in users %}
+<tr>
+<td class="adminrows"><input type="email" style="border-radius: 5px;" value="{{user.email}}"/></td>
+<td class="adminrows"><input type="text" style="border-radius: 5px" value="{{user.name}}"/></td>
+<td class="adminrows"><input type="email" style="border-radius: 5px" value="{{user.usertype}}"/></td>
+
+<td class="adminrows"><input type="button" style="border-radius: 5px;padding:5px" value="Update"/></td>
+<td class="adminrows"><input type="button" style="border-radius: 5px;padding:5px;color:white;background-color: red; "value="Delete"/></td>
+</tr>
+{% endfor %}
+<tr><td colspan="5" class="adminrows" style="text-align: center;"><input type="button" style="border-radius: 5px;padding:10px;color:white;background-color: green; "value="Add User"/></td></tr>
+</table>
+</div>
+
+{% endblock %}
