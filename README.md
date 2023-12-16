@@ -22,7 +22,7 @@ https://learn.microsoft.com/en-us/windows/wsl/install
 *pywinsetup.cmd*
 
 
-**Linux/MacOS**
+**Linux**
 
 >To setup the python environment(s) use the following
 
