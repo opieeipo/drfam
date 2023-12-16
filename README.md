@@ -102,6 +102,9 @@ for windows:
 `gunicorn -b :$PORT chatbot:app --timeout=120`
 
 
+**Credits**
+
+Special shout out to @colinhankey for inspiring this project to begin with and @mohebbo for lending me his expertise in so many ways.
 
 
 
