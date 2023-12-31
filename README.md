@@ -3,6 +3,7 @@ OpenAI Implementation for interrogating the [Foreign Affairs Manual(FAM)](https:
 
 **Related Repositories**
 *Not required for functionality but worth a look*
+
 https://github.com/opieeipo/famnab
 
 https://github.com/opieeipo/Kamar-Taj
