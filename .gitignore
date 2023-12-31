@@ -114,6 +114,7 @@ venv.bak/
 .dev.wsl.env
 .pilot.windows.env
 .pilot.wsl.env
+.github
 
 
 # Spyder project settings
