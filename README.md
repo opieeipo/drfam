@@ -2,6 +2,7 @@
 OpenAI Implementation for interrogating the [Foreign Affairs Manual(FAM)](https://fam.state.gov/) and [Department of State Standardized Regulations (DSSR)](https://aoprals.state.gov/Content/Documents/DSSRMaster20230827%20-%20Final%20Form.docx). of the Department of State;  about 35,000 pages of text in total scraped and trained into OpenAI for natural language interrogation
 
 **Related Repositories**
+
 *Not required for functionality but worth a look*
 
 https://github.com/opieeipo/famnab
